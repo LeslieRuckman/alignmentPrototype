@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>find|align</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row" id="menu">
+            <div class="col-lg-12" id="menuTop">
+                <img src="Alignment.png">
+                <p id ="introduction">
+                  Find alignment between the purchases you make and the things you think are important:
+                </p>
+            </div>
+
+              <div class="col-lg-12" id="valueMeasures">
+                <a href="#" class='btn-sustainability btn sm' >SUSTAINABILITY</a>
+                <a href="#" class='btn-environment btn sm'>ENVIRONMENT</a>
+                <a href="#" class='btn-humanrights btn sm'>HUMAN RIGHTS</a>
+                <a href="#" class='btn-health btn sm'>HEALTH</a>
+                <a href="#" class='btn-default btn sm'>+</a>
+            </div>
+        </div>
+
+        <div class="row" id="sidebar">
+            <div class="col-lg-2">
+
+                <h6>PURCHASE CATEGORIES</h6>
+                <a href="#" class='btn-default btn sm'>all</a>
+                <a href="#" class='btn-default btn sm' id='groceries'>groceries</a>
+                <a href="#" class='btn-default btn sm'>take out food</a>
+                <a href="#" class='btn-default btn sm'>restaurant meal</a>
+                <a href="#" class='btn-default btn sm'>transportation</a>
+                <a href="#" class='btn-default btn sm'>travel</a>
+                <a href="#" class='btn-default btn sm'>services</a>
+                <a href="#" class='btn-default btn sm'>education</a>
+                <a href="#" class='btn-default btn sm'>clothing/accessories</a>
+                <a href="#" class='btn-default btn sm'>housing</a>
+                <a href="#" class='btn-default btn sm'>miscellaneous</a>
+                <a href="#" class='btn-default btn sm'>+</a>
+            </div>
+            <div class="col-lg-6">
+                <h6>THIS MONTH</h6>
+                <div class="monthChartHolder">
+                    <canvas id="polarChart"></canvas>
+                    <!-- <img src="Alignment_score.png" id=canvasImg> -->
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="row">
+                <h6>TODAY</h6>
+                <div class="dayChartHolder">
+                    <!-- DOUGHNUT CHART CANVAS -->
+                    <canvas id="dayChart"></canvas>
+                </div>
+                <h6>THIS WEEK</h6>
+                <div class="weekChartHolder">
+                    <!-- DOUGHNUT CHART CANVAS -->
+                    <canvas id="weekChart"></canvas>
+                </div>
+              </div>
+            </div>
+            <!-- end of the sidebar/main canvas div -->
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h6>BEST ALIGNMENT CATEGORY</h6>
+                <p class="bestCat">
+                  <img src="groceries.png">
+                </p>
+              </div>
+            <div class="col-lg-4">
+                <h6>WORST ALIGNMENT CATEGORY</h6>
+                <p class="worstCat">
+                  <img src="transportation.png">
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h6>ALIGNMENT TRENDS</h6>
+                <li>
+                <p id="tips">Traveling has impacted your sustainability score.</p>
+                <p id="tips">When you shop at Hana Food Market, your purchases are healthier and more sustainable.</p>
+              </li>
+              </div>
+
+        </div>
+
+        <!-- end of the container -->
+    </div>
+</body>
+
+<!-- JQuery script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- p5JS -->
+<script src="js/p5.js"></script>
+
+<!-- CHART JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js"></script>
+
+<!-- CUSTOM JS -->
+<script src="js/main.js"></script>
+
+</html>

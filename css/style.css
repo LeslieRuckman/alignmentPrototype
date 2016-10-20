@@ -1,0 +1,84 @@
+body{
+  background-color: #d9d9d9;
+  font-family: 'Roboto', sans-serif;
+}
+
+li{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+h6{
+  border-top-style: solid;
+  border-top-color: : #000;
+  border-width: 5px;
+  padding-top: 5px;
+  font-weight: bolder;
+}
+
+p{
+  align-items: center;
+  padding-top: 15px;
+
+}
+
+.introduction{
+
+}
+
+.btn-default{
+  background: #d9d9d9;
+  font-family: 'Roboto', sans-serif;
+  margin:2px;
+}
+
+.btn-sustainability{
+  background-color: #f31616;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin:2px;
+}
+.btn-environment{
+  background-color: #abe6d4;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin:2px;
+}
+.btn-humanrights{
+  background-color: #fcbfb8;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin:2px;
+}
+.btn-health{
+  background-color: #203a8e;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin:2px;
+}
+
+.menuTop{
+padding-top: 30px;
+}
+
+.col-lg-4{
+padding-right: 100px;
+}
+
+.col-lg-3{
+padding-right: 100px;
+}
+
+.monthChartHolder{
+  position:relative;
+  z-index: 1;
+}
+.canvasImg{
+position: absolute;
+z-index:2;
+width: 300px;
+}
+.valueMeasures{
+  border-top-style: none;
+
+}

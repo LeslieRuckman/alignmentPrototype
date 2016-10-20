@@ -1,0 +1,80 @@
+{
+	"month": {
+		"environment": 99,
+		"health": 161,
+		"humanrights":139,
+		"sustainability":121
+	},
+	"week": {
+		"environment": 25,
+		"health": 37,
+		"humanrights":32,
+		"sustainability":37
+	},
+	"day": {
+		"environment": 0,
+		"health": 3,
+		"humanrights":2,
+		"sustainability":1
+	},
+	"groceries": {
+		"environment": 300,
+		"health": 23,
+		"humanrights":70,
+		"sustainability":62
+	},
+	"takeout": {
+		"environment": 99,
+		"health": 161,
+		"humanrights":139,
+		"sustainability":121
+	},
+	"restaurant": {
+		"environment": 99,
+		"health": 161,
+		"humanrights":139,
+		"sustainability":121
+	},
+	"transportation": {
+		"environment": 99,
+		"health": 161,
+		"humanrights":139,
+		"sustainability":121
+	},
+	"travel": {
+		"environment": 99,
+		"health": 161,
+		"humanrights":139,
+		"sustainability":121
+	},
+	"services": {
+		"environment": 99,
+		"health": 161,
+		"humanrights":139,
+		"sustainability":121
+	},
+	"education": {
+		"environment": 99,
+		"health": 161,
+		"humanrights":139,
+		"sustainability":121
+	},
+	"clothing": {
+		"environment": 99,
+		"health": 161,
+		"humanrights":139,
+		"sustainability":121
+	},
+	"housing": {
+		"environment": 99,
+		"health": 161,
+		"humanrights":139,
+		"sustainability":121
+	},
+	"miscellaneous": {
+		"environment": 99,
+		"health": 161,
+		"humanrights":139,
+		"sustainability":121
+	}
+}
